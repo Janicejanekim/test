@@ -1,0 +1,38 @@
+> library(writexl)
+Warning message:
+package ‘writexl’ was built under R version 4.1.1 
+> library(janitor)
+
+Attaching package: ‘janitor’
+
+The following objects are masked from ‘package:stats’:
+
+    chisq.test, fisher.test
+
+Warning message:
+package ‘janitor’ was built under R version 4.1.3 
+> library(tidyverse)
+-- Attaching packages ------------------------------------------------------ tidyverse 1.3.2 --
+v ggplot2 3.3.6      v purrr   0.3.4 
+v tibble  3.1.8      v dplyr   1.0.10
+v tidyr   1.2.0      v stringr 1.4.0 
+v readr   2.1.2      v forcats 0.5.1 
+-- Conflicts --------------------------------------------------------- tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+Warning messages:
+1: package ‘tidyverse’ was built under R version 4.1.3 
+2: package ‘ggplot2’ was built under R version 4.1.3 
+3: package ‘tibble’ was built under R version 4.1.3 
+4: package ‘tidyr’ was built under R version 4.1.3 
+5: package ‘readr’ was built under R version 4.1.3 
+> library(xlsx)
+Error: package or namespace load failed for ‘xlsx’:
+ .onLoad failed in loadNamespace() for 'rJava', details:
+  call: fun(libname, pkgname)
+  error: JAVA_HOME cannot be determined from the Registry
+In addition: Warning message:
+package ‘xlsx’ was built under R version 4.1.3 
+> library(readxl)
+Warning message:
+package ‘readxl’ was built under R version 4.1.3 
